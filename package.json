@@ -8,7 +8,9 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "dev": "./node_modules/.bin/ts-node index.ts"
+    "squared": "node ./dist/index.js",
+    "pyramid": "node ./dist/index.js",
+    "jump": "node ./dist/bin/jumpsleftRight.js"
   },
   "devDependencies": {
     "@types/node": "^20.11.27",
