@@ -9,7 +9,7 @@
   "dependencies": {},
   "scripts": {
     "squared": "node ./dist/index.js",
-    "pyramid": "node ./dist/index.js",
+    "pyramid": "ts-node ./bin/ingest.ts",
     "jump": "node ./dist/bin/jumpsleftRight.js"
   },
   "devDependencies": {
@@ -18,3 +18,5 @@
     "typescript": "^5.4.2"
   }
 }
+
+
