@@ -10,7 +10,8 @@
   "scripts": {
     "squared": "node ./dist/index.js",
     "pyramid": "ts-node ./bin/ingest.ts",
-    "jump": "node ./dist/bin/jumpsleftRight.js"
+    "jump": "node ./dist/bin/jumpsleftRight.js",
+    "transpose": "node ./dist/bin/transposeMatrix.js"
   },
   "devDependencies": {
     "@types/node": "^20.11.27",
