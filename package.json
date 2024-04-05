@@ -6,12 +6,17 @@
   "repository": "git@github.com:nukepowermaiden2025/ts-practice.git",
   "author": "kourtney reynolds",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.8"
+  },
   "scripts": {
-    "squared": "node ./dist/index.js",
+    "squared": "node ./dist/bin/squared.js",
     "pyramid": "ts-node ./bin/ingest.ts",
     "jump": "node ./dist/bin/jumpsleftRight.js",
-    "transpose": "node ./dist/bin/transposeMatrix.js"
+    "transpose": "node ./dist/bin/transposeMatrix.js",
+    "cookie": "node ./dist/bin/cookiePieShow.js",
+    "run-meds": "ts-node index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.27",
@@ -19,5 +24,3 @@
     "typescript": "^5.4.2"
   }
 }
-
-
